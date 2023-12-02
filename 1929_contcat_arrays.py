@@ -3,9 +3,9 @@
 # https://leetcode.com/problems/concatenation-of-array/description/
 # Runtime:
 # Memory:
-""" module docstring """
+"""docstring"""
 
-import numpy as np
+# import numpy as np
 
 
 class Solution:

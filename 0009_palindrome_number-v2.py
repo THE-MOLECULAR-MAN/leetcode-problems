@@ -19,14 +19,14 @@ def isPalindrome(x: str) -> bool:
 
     if leng <= 1:
         return True
-    elif leng == 2:
+    if leng == 2:
         return x_str[0] == x_str[1]
-    elif leng == 3:
+    if leng == 3:
         return x_str[0] == x_str[2]
 
     # code up to here is solid
 
-    if (leng % 2 == 0):  # even
+    if leng % 2 == 0:  # even
         end_of_left_str = (leng - 1) // 2
         start_of_right_str = end_of_left_str + 1
         left_side = x_str[0:end_of_left_str+1]
@@ -46,6 +46,6 @@ def isPalindrome(x: str) -> bool:
 
 
 # assert isPalindrome("012345") == False
-assert isPalindrome("0123456") == False
+assert isPalindrome("0123456") is False
 # assert isPalindrome("888888") == True
 # assert isPalindrome("88888")  == True

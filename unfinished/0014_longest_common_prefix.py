@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 # Tim H 2023
+# UNFINISHED
 # https://leetcode.com/problems/longest-common-prefix/description/
 # Runtime:
 # Memory:
-""" module docstring """
+"""docstring"""
 
 
 class Solution:
@@ -25,15 +26,13 @@ class Solution:
             while outer_iter < len(shortest_string):
                 inner_iter = 1
                 next_char = strs[outer_iter][inner_iter]
-                # print('first_char of first string = ' + first_char)
+
                 while inner_iter < len(strs):
-                    # print("strs [" + str(i) + "][0] = " + strs[i][0])
+
                     if strs[outer_iter][inner_iter] != next_char:
                         if inner_iter == 1:
                             return ""
-                        else:
-                            return strs[0][0:outer_iter - 2]
-                            # return res
+                        return strs[0][0:outer_iter - 2]
                     inner_iter += 1
                 res = res.append(next_char)
                 outer_iter += 1

@@ -4,7 +4,7 @@
 # https://leetcode.com/problems/design-parking-system/description/
 # Runtime:
 # Memory:
-""" module docstring """
+"""docstring"""
 
 
 class ParkingSystem:
@@ -19,9 +19,9 @@ class ParkingSystem:
         """docstring"""
         if self.spaces[carType-1][1] + 1 > self.spaces[carType-1][0]:
             return False
-        else:
-            self.spaces[carType-1][1] += 1
-            return True
+
+        self.spaces[carType-1][1] += 1
+        return True
 
 
 ###############################################################################
