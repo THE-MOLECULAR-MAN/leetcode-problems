@@ -1,16 +1,18 @@
 #!/usr/bin/python3
 # Tim H 2023
-# https://leetcode.com/problems/
+# https://leetcode.com/problems/climbing-stairs/
 # Runtime:
 # Memory:
 """ module docstring """
 
 
 class Solution:
-    """doc string"""
-
-    def testname(self, paramname: int) -> int:
-        """doc string"""
+    def climbStairs(self, n: int) -> int:
+        """docstring"""
+        # there's def a O(n^2) solution that's slow af, prob using recursion
+        # but is there a math formula to determine this?
+        if n < 3:
+            return n
 
 
 ###############################################################################
@@ -18,7 +20,7 @@ class Solution:
 ###############################################################################
 sol = Solution()
 
-tests = [1, 2, 3]
+tests = [1, 2, 3, 4, 5, 16, 32, 45]
 
 for test_iter in tests:
     print(str(test_iter) + ' -->  ' + str(sol.testname(test_iter)))

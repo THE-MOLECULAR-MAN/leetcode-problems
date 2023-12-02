@@ -15,22 +15,23 @@ def plusOne(digits: list[int]) -> list[int]:
                 return digits
             else:               # do need to carry
                 digits[i] = 0   # set the current number as 0
-                if i == 0:      # the leading digit is a 9 and need to 
+                if i == 0:      # the leading digit is a 9 and need to
                     digits.insert(0, 1)
                     return digits
                 i -= 1
-        digits.insert(0,1)
+        digits.insert(0, 1)
         return digits
+
 
 tests = [[0],
          [1],
          [9],
          [9, 9, 9],
-        [1, 0, 9],
-        [1, 9, 9],
-        [9, 9, 9],
-        [9,0,0]
-        ]
+         [1, 0, 9],
+         [1, 9, 9],
+         [9, 9, 9],
+         [9, 0, 0]
+         ]
 
 for iter in tests:
     print(str(iter) + ' -->  ' + str(plusOne(iter)))
