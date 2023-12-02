@@ -6,6 +6,7 @@
 # Memory:
 """ module docstring """
 
+
 class ParkingSystem:
     """docstring"""
     spaces = [(0, 0), (0, 0), (0, 0)]

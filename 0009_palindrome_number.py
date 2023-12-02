@@ -5,8 +5,10 @@
 # Memory:
 """docstring"""
 
+
 class Solution:
     """docstring"""
+
     def isPalindrome(self, x: int) -> bool:
         """docstring"""
         if x < 0:

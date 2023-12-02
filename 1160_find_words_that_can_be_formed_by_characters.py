@@ -6,8 +6,10 @@
 # Memory:
 """docstring"""
 
+
 class Solution:
     """docstring"""
+
     def countCharacters(self, words: List[str], chars: str) -> int:
         """docstring"""
         return 0

@@ -6,6 +6,8 @@
 """docstring"""
 
 # very very slow: O(n)
+
+
 def mySqrt(x: int) -> int:
     """docstring"""
     if x == 0:

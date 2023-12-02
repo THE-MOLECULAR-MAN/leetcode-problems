@@ -9,6 +9,7 @@
 
 class Solution:
     """docstring"""
+
     def climbStairs(self, n: int) -> int:
         """docstring"""
         # there's def a O(n^2) solution that's slow af, prob using recursion

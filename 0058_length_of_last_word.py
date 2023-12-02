@@ -5,8 +5,10 @@
 # Memory:
 """docstring"""
 
+
 class Solution:
     """docstring"""
+
     def lengthOfLastWord(self, s: str) -> int:
         """docstring"""
         s = s.strip()

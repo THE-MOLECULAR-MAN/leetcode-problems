@@ -8,11 +8,12 @@
 
 class Solution:
     """docstring"""
+
     def findWordsContaining(self, words: List[str], x: str) -> List[int]:
         """docstring"""
         ans = []
         i = 0
         for i, word in enumerate(words):
-          if x in word:
-            ans.append(i)
+            if x in word:
+                ans.append(i)
         return ans

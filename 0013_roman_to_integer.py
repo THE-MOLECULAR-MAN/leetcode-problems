@@ -24,8 +24,8 @@ def get_subtraction_list(l):
 
 def find_next_change(l):
     """docstring"""
-    #for i in l:
-        #if
+    # for i in l:
+    # if
     return 0
 
 

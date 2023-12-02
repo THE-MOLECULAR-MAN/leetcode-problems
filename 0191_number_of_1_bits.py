@@ -5,8 +5,10 @@
 
 import operator as op
 
+
 class Solution:
     """docstring"""
+
     def hammingWeight(self, n: int) -> int:
         """docstring"""
         return op.countOf(bin(n), "1")

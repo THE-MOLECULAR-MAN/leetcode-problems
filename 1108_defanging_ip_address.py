@@ -8,6 +8,7 @@
 
 class Solution:
     """docstring"""
+
     def defangIPaddr(self, address: str) -> str:
         """docstring"""
         return address.replace('.', '[.]', 3)

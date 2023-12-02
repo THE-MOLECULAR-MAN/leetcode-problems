@@ -5,6 +5,7 @@
 # Memory:
 """ module docstring """
 
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         for outer_iter in range(len(nums)):

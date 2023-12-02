@@ -10,6 +10,7 @@ import numpy as np
 
 class Solution:
     """docstring"""
+
     def getConcatenation(self, nums: List[int]) -> List[int]:
         """docstring"""
         # return np.concatenate(nums,nums]

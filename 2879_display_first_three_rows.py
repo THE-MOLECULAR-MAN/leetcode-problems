@@ -7,6 +7,7 @@
 
 import pandas as pd
 
+
 def selectFirstRows(employees: pd.DataFrame) -> pd.DataFrame:
     """docstring"""
     return employees.head(3)

@@ -5,8 +5,10 @@
 # Memory:
 """ module docstring """
 
+
 class Solution:
     """docstring"""
+
     def longestCommonPrefix(self, strs: list[str]) -> str:
         """docstring"""
         try:
