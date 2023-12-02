@@ -1,3 +1,10 @@
+#!/usr/bin/python3
+# Tim H 2023
+# https://leetcode.com/problems/palindrome-number/description/
+# Runtime:
+# Memory:
+""" module docstring """
+
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         if x < 0:

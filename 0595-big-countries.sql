@@ -1,4 +1,6 @@
-# Write your MySQL query statement below
+-- Tim H 2023
+-- https://leetcode.com/problems/big-countries/description/
+
 select name, population, area from World
 
 where

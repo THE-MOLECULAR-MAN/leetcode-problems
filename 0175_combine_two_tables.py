@@ -1,7 +1,7 @@
 #!/usr/local/bin/python3.12
 # Running in Visual Studio venv
 # Tim H 2023
-# https://leetcode.com/problems/combine-two-tables/description/?lang=pythondata
+# https://leetcode.com/problems/combine-two-tables/description/
 # Runtime:  beats 95%
 # Memory:   beats 84%
 """ module docstring """

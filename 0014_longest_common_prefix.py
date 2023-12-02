@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 # Tim H 2023
-# https://leetcode.com/problems/longest-common-prefix/
+# https://leetcode.com/problems/longest-common-prefix/description/
+# Runtime:
+# Memory:
+""" module docstring """
 
 class Solution:
     def longestCommonPrefix(self, strs: list[str]) -> str:
@@ -37,7 +40,10 @@ class Solution:
         return True
 
 
-################################################################################
+###############################################################################
+#       MAIN
+###############################################################################
+
 sol = Solution()
 
 tests = [["flower", "flow", "flight"],

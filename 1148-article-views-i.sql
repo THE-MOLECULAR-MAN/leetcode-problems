@@ -1,4 +1,5 @@
-# Write your MySQL query statement below
+--Tim H 2023
+-- https://leetcode.com/problems/article-views-i/description/
 
 select distinct author_id as id from Views where
 

@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 # Tim H 2023
-# https://leetcode.com/problems/climbing-stairs/
+# https://leetcode.com/problems/climbing-stairs/description/
 # Runtime:
 # Memory:
 """ module docstring """
 
 
 class Solution:
+    """docstring"""
     def climbStairs(self, n: int) -> int:
         """docstring"""
         # there's def a O(n^2) solution that's slow af, prob using recursion

@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # Tim H 2023
-# https://leetcode.com/problems/valid-parentheses/
+# https://leetcode.com/problems/valid-parentheses/description/
 # Runtime: 30 ms,    Beats 95.43% of users with Python3
 # Memory:  16.38 MB, Beats 25.71% of users with Python3
 # https://leetcode.com/problems/valid-parentheses/solutions/4345396/python3-high-speed-beats-95-of-runtime/
@@ -41,7 +41,10 @@ class Solution:
         return len(stack) == 0
 
 
-################################################################################
+###############################################################################
+#       MAIN
+###############################################################################
+
 sol = Solution()
 
 tests = [r'()', r'()[]{}', r'(]', r')', "){"]

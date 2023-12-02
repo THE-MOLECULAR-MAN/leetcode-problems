@@ -3,7 +3,7 @@
 # https://leetcode.com/problems/
 # Runtime:
 # Memory:
-""" module docstring """
+"""docstring"""
 
 
 class Solution:

@@ -1,3 +1,4 @@
-# Write your MySQL query statement below
+-- Tim H 2023
+-- https://leetcode.com/problems/invalid-tweets/description/
 select tweet_id from Tweets
 where length(content) > 15

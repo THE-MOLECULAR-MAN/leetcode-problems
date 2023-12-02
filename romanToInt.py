@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-# /usr/bin/python3 -m pip install numpy
+# Tim H 2023
+
 import numpy as np
 
 
@@ -46,6 +47,10 @@ def romanToInt(s: str):
     print('gotta do some logic, it is ascending')
 
     return numerical_list
+
+###############################################################################
+#       MAIN
+###############################################################################
 
 
 print(romanToInt('I'))

@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+# Tim H 2023
 def isPalindrome(x: str) -> bool:
     # if x < 0:
     #    return False
@@ -30,6 +32,10 @@ def isPalindrome(x: str) -> bool:
 
     print("original= ", x, "  left =", left_side, "  right =", right_side)
     return left_side == right_side
+
+###############################################################################
+#       MAIN
+###############################################################################
 
 
 # assert isPalindrome("012345") == False

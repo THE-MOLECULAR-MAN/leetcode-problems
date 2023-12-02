@@ -1,4 +1,10 @@
+#!/usr/bin/python3
+# Tim H 2023
 # Definition for singly-linked list.
+# Runtime:
+# Memory:
+""" module docstring """
+
 # class ListNode:
 #     def __init__(self, val=0, next=None):
 #         self.val = val
