@@ -1,2 +1,3 @@
-# leetcode-problems
-https://leetcode.com/problemset/all/
+# leetcode-problems repository
+
+My solutions for problems posted on [LeetCode](https://leetcode.com/problemset/all/) - learning Python, SQL, Pandas, and more.
