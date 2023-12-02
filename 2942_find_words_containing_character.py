@@ -3,7 +3,7 @@
 # https://leetcode.com/problems/find-words-containing-character/description/
 # Runtime:
 # Memory:
-""" module docstring """
+"""docstring"""
 
 
 class Solution:

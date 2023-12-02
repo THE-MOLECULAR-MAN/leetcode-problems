@@ -7,7 +7,7 @@
 # https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html
 # https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.map.html
 # https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.set_index.html
-""" module docstring """
+"""docstring"""
 
 import pandas as pd
 
@@ -19,6 +19,7 @@ import pandas as pd
 
 
 def find_employees(employee: pd.DataFrame) -> pd.DataFrame:
+    """docstring"""
     employer_lookup = employee.merge(
         employee, how='inner', left_on="managerId", right_on="id")
     # print(employer_lookup)
@@ -32,6 +33,7 @@ def find_employees(employee: pd.DataFrame) -> pd.DataFrame:
 #       Runtime:  417 ms, beats 99%
 #       Memory:   60 MB,  beats 96%
 def find_employees(employee: pd.DataFrame) -> pd.DataFrame:
+    """docstring"""
     result_df = employee[employee['salary'] > employee['managerId'].map(
         employee.set_index('id')['salary'])]
     result_df = result_df[['name']].rename(columns={'name': 'Employee'})

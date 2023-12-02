@@ -1,6 +1,13 @@
 #!/usr/bin/python3
 # Tim H 2023
+# https://leetcode.com/problems/palindrome-number/description/
+# Runtime:
+# Memory:
+"""docstring"""
+
+
 def isPalindrome(x: str) -> bool:
+    """docstring"""
     # if x < 0:
     #    return False
 

@@ -6,8 +6,9 @@
 """ module docstring """
 
 class Solution:
+    """docstring"""
     def longestCommonPrefix(self, strs: list[str]) -> str:
-        """x"""
+        """docstring"""
         try:
             shortest_string = min(strs, key=len)
             print('shortest_string = ' + str(shortest_string))

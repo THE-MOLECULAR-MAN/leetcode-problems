@@ -1,25 +1,36 @@
 #!/usr/bin/python3
 # Tim H 2023
+# UNFINISHED
+# https://leetcode.com/problems/roman-to-integer/description/
+# Problem: 0013
+# Runtime:
+# Memory:
+"""docstring"""
+
 
 import numpy as np
 
 
 def is_descending(r) -> bool:
+    """docstring"""
     # print('sorted version: ', sorted(r))
     return r == sorted(r, reverse=True)
 
 
 def get_subtraction_list(l):
-    """x"""
+    """docstring"""
+    return 0
 
 
 def find_next_change(l):
-    """x"""
-    for i in l:
-        if
+    """docstring"""
+    #for i in l:
+        #if
+    return 0
 
 
 def romanToInt(s: str):
+    """docstring"""
     mapping = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
     print('-------------------------')
     print('original: ', s)

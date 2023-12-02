@@ -4,7 +4,7 @@
 # Problem: 2878
 # Runtime:
 # Memory:
-""" module docstring """
+"""docstring"""
 
 import pandas as pd
 

@@ -3,9 +3,10 @@
 # https://leetcode.com/problems/display-the-first-three-rows/description/
 # Runtime:
 # Memory:
-""" module docstring """
+"""docstring"""
 
 import pandas as pd
 
 def selectFirstRows(employees: pd.DataFrame) -> pd.DataFrame:
+    """docstring"""
     return employees.head(3)

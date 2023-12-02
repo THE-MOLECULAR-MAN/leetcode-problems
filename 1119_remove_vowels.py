@@ -3,7 +3,7 @@
 # https://leetcode.com/problems/remove-vowels-from-a-string/
 # Runtime:
 # Memory:
-""" module docstring """
+"""docstring"""
 
 import re
 

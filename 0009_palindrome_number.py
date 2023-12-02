@@ -3,10 +3,12 @@
 # https://leetcode.com/problems/palindrome-number/description/
 # Runtime:
 # Memory:
-""" module docstring """
+"""docstring"""
 
 class Solution:
+    """docstring"""
     def isPalindrome(self, x: int) -> bool:
+        """docstring"""
         if x < 0:
             return False
 

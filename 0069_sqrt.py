@@ -3,7 +3,7 @@
 # https://leetcode.com/problems/sqrtx/description/description/
 # Runtime:
 # Memory:
-""" module docstring """
+"""docstring"""
 
 # very very slow: O(n)
 def mySqrt(x: int) -> int:

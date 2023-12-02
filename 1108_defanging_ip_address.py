@@ -3,11 +3,11 @@
 # https://leetcode.com/problems/defanging-an-ip-address/description/
 # Runtime:
 # Memory:
-""" module docstring """
+"""docstring"""
 
 
 class Solution:
-    """doc string"""
+    """docstring"""
     def defangIPaddr(self, address: str) -> str:
-        """doc string"""
+        """docstring"""
         return address.replace('.', '[.]', 3)

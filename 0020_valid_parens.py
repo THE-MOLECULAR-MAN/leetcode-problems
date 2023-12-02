@@ -19,7 +19,9 @@
 
 
 class Solution:
+    """docstring"""
     def isValid(self, s: str) -> bool:
+        """docstring"""
         if len(s) < 2 or len(s) % 2 != 0:
             return False
 
