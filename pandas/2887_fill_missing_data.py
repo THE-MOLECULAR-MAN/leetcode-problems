@@ -6,9 +6,9 @@
 # https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.fillna.html
 
 # Be mindful that in Python (and NumPy):
-#   the nan's don’t compare equal, 
-#   but None's do. 
-# Note that pandas/NumPy uses the fact that np.nan != np.nan, 
+#   the nan's don’t compare equal,
+#   but None's do.
+# Note that pandas/NumPy uses the fact that np.nan != np.nan,
 # and treats None like np.nan.
 
 # Runtime:  beats 51%
@@ -16,6 +16,7 @@
 """docstring"""
 
 import pandas as pd
+
 
 def fillMissingValues(products: pd.DataFrame) -> pd.DataFrame:
     """docstring"""
