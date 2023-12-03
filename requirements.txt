@@ -2,3 +2,5 @@ pandas
 numpy
 matplotlib
 pandasql
+collections_extended
+multiset
