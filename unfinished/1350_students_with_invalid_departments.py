@@ -13,6 +13,5 @@
 import pandas as pd
 
 def find_students(departments: pd.DataFrame, students: pd.DataFrame) -> pd.DataFrame:
-    penguins[(penguins['sex'] == 'Male') & (penguins['flipper_length_mm'] > 210)]['species'].unique()
-    
-    
+    # penguins[(penguins['sex'] == 'Male') & (penguins['flipper_length_mm'] > 210)]['species'].unique()
+    return 0

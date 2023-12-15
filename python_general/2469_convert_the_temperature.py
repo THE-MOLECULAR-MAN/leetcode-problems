@@ -9,6 +9,6 @@
 class Solution:
     """docstring"""
 
-    def convertTemperature(self, celsius: float) -> List[float]:
+    def convertTemperature(self, celsius: float) -> list[float]:
         """docstring"""
         return [celsius + 273.15, (celsius * 1.80) + 32.00]

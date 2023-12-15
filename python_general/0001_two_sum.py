@@ -9,7 +9,7 @@
 class Solution:
     """docstring"""
 
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+    def twoSum(self, nums: list[int], target: int) -> list[int]:
         """docstring"""
         for outer_iter, val_outer in enumerate(nums):
             for inner_iter in range(outer_iter+1, len(nums)):

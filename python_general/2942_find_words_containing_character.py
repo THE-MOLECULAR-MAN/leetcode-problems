@@ -9,7 +9,7 @@
 class Solution:
     """docstring"""
 
-    def findWordsContaining(self, words: List[str], x: str) -> List[int]:
+    def findWordsContaining(self, words: list[str], x: str) -> list[int]:
         """docstring"""
         ans = []
         i = 0

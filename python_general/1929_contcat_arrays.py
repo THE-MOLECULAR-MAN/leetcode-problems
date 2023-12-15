@@ -11,7 +11,7 @@
 class Solution:
     """docstring"""
 
-    def getConcatenation(self, nums: List[int]) -> List[int]:
+    def getConcatenation(self, nums: list[int]) -> list[int]:
         """docstring"""
         # return np.concatenate(nums,nums]
         return nums.extend(nums)

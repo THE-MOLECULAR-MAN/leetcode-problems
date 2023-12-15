@@ -9,7 +9,7 @@
 class Solution:
     """docstring"""
 
-    def singleNumber(self, nums: List[int]) -> int:
+    def singleNumber(self, nums: list[int]) -> int:
         """docstring"""
         nums.sort()
         i = 0
