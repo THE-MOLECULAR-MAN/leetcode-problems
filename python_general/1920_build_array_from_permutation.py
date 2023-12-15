@@ -9,7 +9,7 @@
 class Solution:
     """docstring"""
 
-    def buildArray(self, nums: List[int]) -> List[int]:
+    def buildArray(self, nums: list[int]) -> list[int]:
         """docstring"""
         # lambda function is prob fastest
         # pre-allocate array for speed
