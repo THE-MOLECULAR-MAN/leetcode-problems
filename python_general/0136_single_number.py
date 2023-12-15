@@ -19,4 +19,4 @@ class Solution:
             if nums[i] != nums[i+1]:
                 return nums[i]
             i += 2
-        return null
+        return None
