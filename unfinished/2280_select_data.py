@@ -2,8 +2,8 @@
 # Tim H 2023
 # UNFINISHED
 # https://leetcode.com/problems/select-data/description/?envType=study-plan-v2&envId=introduction-to-pandas&lang=pythondata
-# Runtime:
-# Memory:
+# Runtime: beats	%
+# Memory:  beats	%
 """docstring"""
 
 

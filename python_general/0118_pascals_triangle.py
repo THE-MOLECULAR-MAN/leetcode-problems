@@ -3,13 +3,14 @@
 # https://leetcode.com/problems/pascals-triangle/
 # Runtime:  beats 67%
 # Memory:   beats 52%
-#TODO: preallocate entire list structure ahead of time instead of appending
+# TODO: preallocate entire list structure ahead of time instead of appending
 # then can just 2 nested loops to access via indexes
 """docstring"""
 
 # def get_last_row(l):
 #     """docstring"""
 #     return l[-1]
+
 
 def create_next_row(r):
     """docstring"""
@@ -20,8 +21,10 @@ def create_next_row(r):
         i += 1
     return next_row
 
+
 class Solution:
     """docstring"""
+
     def generate(self, numRows: int) -> list[list[int]]:
         """docstring"""
         res = [[1]]
@@ -32,5 +35,6 @@ class Solution:
             res.append(create_next_row(res[-1]))
             i += 1
         return res
+
 
 print(Solution().generate(5))

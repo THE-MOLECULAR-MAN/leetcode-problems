@@ -2,8 +2,8 @@
 # Tim H 2023
 # https://leetcode.com/problems/get-the-size-of-a-dataframe/description/
 # Problem: 2878
-# Runtime:
-# Memory:
+# Runtime: beats	%
+# Memory:  beats	%
 """docstring"""
 
 import pandas as pd

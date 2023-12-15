@@ -2,6 +2,9 @@
 # Running in Visual Studio venv
 # Tim H 2023
 # https://leetcode.com/problems/employees-earning-more-than-their-managers/description/
+# Runtime: beats	%
+# Memory:  beats	%
+
 
 # References/documentation:
 # https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html

@@ -2,8 +2,8 @@
 # Tim H 2023
 # UNFINISHED
 # https://leetcode.com/problems/sqrtx/description/description/
-# Runtime:
-# Memory:
+# Runtime: beats	%
+# Memory:  beats	%
 """docstring"""
 
 # very very slow: O(n)

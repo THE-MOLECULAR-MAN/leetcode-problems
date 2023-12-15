@@ -2,8 +2,8 @@
 # Tim H 2023
 # UNFINISHED
 # Definition for singly-linked list.
-# Runtime:
-# Memory:
+# Runtime: beats	%
+# Memory:  beats	%
 """docstring"""
 
 # class ListNode:

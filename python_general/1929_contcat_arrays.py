@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 # Tim H 2023
 # https://leetcode.com/problems/concatenation-of-array/description/
-# Runtime:
-# Memory:
+# Runtime: beats	%
+# Memory:  beats	%
 """docstring"""
 
 # import numpy as np

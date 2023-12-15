@@ -2,8 +2,8 @@
 # Tim H 2023
 # https://leetcode.com/problems/create-a-dataframe-from-list/description/
 # Problem: 2877
-# Runtime:
-# Memory:
+# Runtime: beats	%
+# Memory:  beats	%
 """docstring"""
 
 import pandas as pd

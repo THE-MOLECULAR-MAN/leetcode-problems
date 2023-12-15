@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 # Tim H 2023
 # https://leetcode.com/problems/number-of-1-bits/description/
+# Runtime: beats	%
+# Memory:  beats	%
+
 """docstring"""
 
 import operator as op

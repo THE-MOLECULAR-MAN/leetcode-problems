@@ -2,8 +2,8 @@
 # Tim H 2023
 # Problem: 1603
 # https://leetcode.com/problems/design-parking-system/description/
-# Runtime:
-# Memory:
+# Runtime: beats	%
+# Memory:  beats	%
 """docstring"""
 
 

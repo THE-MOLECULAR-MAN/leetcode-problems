@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 # Tim H 2023
 # https://leetcode.com/problems/rename-columns/description/?envType=study-plan-v2&envId=introduction-to-pandas&lang=pythondata
-
 # Runtime:  beats 74%
 # Memory:   beats 88%
 """docstring"""

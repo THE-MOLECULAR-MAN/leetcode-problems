@@ -1,10 +1,9 @@
 #!/usr/bin/python3
 # Tim H 2023
 # https://leetcode.com/problems/two-sum/description/
-"""docstring"""
-
 # Runtime: beats:  34%
 # Memory:  beats:  59%
+"""docstring"""
 
 
 class Solution:
