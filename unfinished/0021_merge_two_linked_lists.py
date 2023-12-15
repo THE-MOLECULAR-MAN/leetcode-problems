@@ -1,11 +1,14 @@
 #!/usr/bin/python3
 # Tim H 2023
+# https://leetcode.com/problems/merge-two-sorted-lists/
 # UNFINISHED
-# Definition for singly-linked list.
 # Runtime: beats	%
 # Memory:  beats	%
 """docstring"""
 
+from typing import Optional
+
+# Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
@@ -18,4 +21,4 @@ class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode],
                       list2: Optional[ListNode]) -> Optional[ListNode]:
         """docstring"""
-        return 0
+        return None
