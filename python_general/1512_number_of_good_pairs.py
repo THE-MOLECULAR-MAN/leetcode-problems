@@ -9,7 +9,7 @@
 class Solution:
     """docstring"""
 
-    def numIdenticalPairs(self, nums: List[int]) -> int:
+    def numIdenticalPairs(self, nums: list[int]) -> int:
         """docstring"""
         ans = 0
         for ind1, val1 in enumerate(nums):
