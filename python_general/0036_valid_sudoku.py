@@ -17,7 +17,7 @@ def hasDuplicates(s: str) -> bool:
 class Solution:
     """docstring"""
 
-    def isValidSudoku(self, board: List[List[str]]) -> bool:
+    def isValidSudoku(self, board: list[list[str]]) -> bool:
         """docstring"""
         # horizonal line test
         i = 0
