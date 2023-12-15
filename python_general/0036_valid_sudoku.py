@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 # Tim H 2023
 # https://leetcode.com/problems/valid-sudoku/
+# Runtime: beats	%
+# Memory:  beats	%
+
 """docstring"""
 import re
 

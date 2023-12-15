@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 # Tim H 2023
 # https://leetcode.com/problems/plus-one/description/description/
-# Runtime:
-# Memory:
+# Runtime: beats	%
+# Memory:  beats	%
 """docstring"""
 
 

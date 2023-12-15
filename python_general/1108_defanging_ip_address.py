@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 # Tim H 2023
 # https://leetcode.com/problems/defanging-an-ip-address/description/
-# Runtime:
-# Memory:
+# Runtime: beats	%
+# Memory:  beats	%
 """docstring"""
 
 
