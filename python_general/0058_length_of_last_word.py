@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 # Tim H 2023
 # https://leetcode.com/problems/length-of-last-word/description/
-# Runtime: beats	%
-# Memory:  beats	%
+# Runtime: beats	89%
+# Memory:  beats	8%
 """docstring"""
 
 
