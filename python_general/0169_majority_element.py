@@ -7,8 +7,10 @@
 
 from collections import Counter
 
+
 class Solution:
     """docstring"""
+
     def majorityElement(self, nums: list[int]) -> int:
         """docstring"""
         return Counter(nums).most_common(1)[0][0]

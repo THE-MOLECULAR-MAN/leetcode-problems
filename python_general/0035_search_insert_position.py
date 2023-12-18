@@ -5,10 +5,12 @@
 # Memory:   beats 39%
 """docstring"""
 
-import bisect  
+import bisect
+
 
 class Solution:
     """docstring"""
+
     def searchInsert(self, nums: list[int], target: int) -> int:
         """docstring"""
         return bisect.bisect_left(nums, target)

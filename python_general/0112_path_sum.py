@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 # Tim H 2023
 # https://leetcode.com/problems/path-sum
-# Runtime: beats	94%
-# Memory:  beats	5% lol
+# Runtime: beats	68%
+# Memory:  beats	89%
 """docstring"""
 
 # Definition for a binary tree node.
@@ -11,8 +11,12 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+from typing import Optional
+
+
 class Solution:
     """docstring"""
+
     def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
         """docstring"""
         if root is None:
@@ -21,10 +25,7 @@ class Solution:
         # if this is a leaf?
         # base case - nothing left to recurse
         if (root.left is None) and (root.right is None):
-            if root.val == targetSum:
-                return True
-            else:
-                return False
+            return bool(root.val == targetSum)
 
         # recursive case, not a leaf:
         return self.hasPathSum(root.left,  targetSum - root.val) \

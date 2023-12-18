@@ -5,8 +5,10 @@
 # Memory:  beats	20%
 """docstring"""
 
+
 class Solution:
     """docstring"""
+
     def removeElement(self, nums: list[int], val: int) -> int:
         """docstring"""
         nums[:] = [x for x in nums if x != val]
