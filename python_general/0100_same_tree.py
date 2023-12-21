@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 # Tim H 2023
-# UNFINISHED
 # https://leetcode.com/problems/same-tree/
 """docstring"""
+# Runtime: beats	97%
+# Memory:  beats	9%
+
 
 from typing import Optional
 
@@ -13,31 +15,36 @@ from typing import Optional
 #         self.left = left
 #         self.right = right
 
+
 class Solution:
     def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
         # exit early:
-        if p.val is None and q.val is None:
-            return True
-
+        # the order of these if statements matters a lot:
         if p is None and q is None:
             return True
 
+        if p == [] and q == []:
+            return True
+
         if (p is None and q is not None) or \
-            (p is not None and q is None):
+                (p is not None and q is None):
             return False
+
+        if p.val is None and q.val is None:
+            return True
 
         if p.val != q.val:
             return False
 
         # if this is a leaf?
         # base case
-        if  (p.left is None) and (p.right is None) and \
+        if (p.left is None) and (p.right is None) and \
             (q.left is None) and (q.right is None) and \
-            q.val == p.val:
+                q.val == p.val:
             return True
-        #else:
+        # else:
         #    return False
 
         # recursive case, not a leaf - use AND
-        return  self.isSameTree(p.left,  q.left) and \
-                self.isSameTree(p.right, q.right)
+        return self.isSameTree(p.left,  q.left) and \
+            self.isSameTree(p.right, q.right)

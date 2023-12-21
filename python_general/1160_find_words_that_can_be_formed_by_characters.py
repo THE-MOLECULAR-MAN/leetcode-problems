@@ -12,7 +12,7 @@
 
 
 from multiset import Multiset
-     
+
 # def sortString2(string_to_sort):
 #     return ''.join(sorted(string_to_sort))
 
@@ -34,7 +34,8 @@ from multiset import Multiset
 
 def multiset_is_subset_of(l_str, r_str):
     return Multiset(l_str).issubset(Multiset(r_str))
-    
+
+
 class Solution:
     def countCharacters(self, words: list[str], chars: str) -> int:
         goodsum = 0
@@ -52,6 +53,7 @@ class Solution:
 #       MAIN
 ###############################################################################
 
+
 test_words = ["cat", "bt", "hat", "tree", "cathyz"]
 test_chars = "atach"
 correct_ans = 6
@@ -61,7 +63,7 @@ print('OUTPUT: ' + str(ans) + ' Correct: ' + str(correct_ans))
 assert ans == correct_ans
 
 
-test_words = ["hello","world","leetcode","impossiblylongword"]
+test_words = ["hello", "world", "leetcode", "impossiblylongword"]
 test_chars = "welldonehoneyr"
 correct_ans = 10
 ans = Solution().countCharacters(test_words, test_chars)
@@ -71,25 +73,25 @@ assert ans == correct_ans
 
 
 test_words = ["dyiclysmffuhibgfvapygkorkqllqlvokosagyelotobicwcmebnpznjbirzrzsrtzjxhsfpiwyfhzyonmuabtlwin",
-    "ndqeyhhcquplmznwslewjzuyfgklssvkqxmqjpwhrshycmvrb",
-    "ulrrbpspyudncdlbkxkrqpivfftrggemkpyjl",
-    "boygirdlggnh",
-    "xmqohbyqwagkjzpyawsydmdaattthmuvjbzwpyopyafphx",
-    "nulvimegcsiwvhwuiyednoxpugfeimnnyeoczuzxgxbqjvegcxeqnjbwnbvowastqhojepisusvsidhqmszbrnynkyop",
-    "hiefuovybkpgzygprmndrkyspoiyapdwkxebgsmodhzpx",
-    "juldqdzeskpffaoqcyyxiqqowsalqumddcufhouhrskozhlmobiwzxnhdkidr",
-    "lnnvsdcrvzfmrvurucrzlfyigcycffpiuoo",
-    "oxgaskztzroxuntiwlfyufddl",
-    "tfspedteabxatkaypitjfkhkkigdwdkctqbczcugripkgcyfezpuklfqfcsccboarbfbjfrkxp",
-    "qnagrpfzlyrouolqquytwnwnsqnmuzphne",
-    "eeilfdaookieawrrbvtnqfzcricvhpiv",
-    "sisvsjzyrbdsjcwwygdnxcjhzhsxhpceqz",
-    "yhouqhjevqxtecomahbwoptzlkyvjexhzcbccusbjjdgcfzlkoqwiwue",
-    "hwxxighzvceaplsycajkhynkhzkwkouszwaiuzqcleyflqrxgjsvlegvupzqijbornbfwpefhxekgpuvgiyeudhncv",
-    "cpwcjwgbcquirnsazumgjjcltitmeyfaudbnbqhflvecjsupjmgwfbjo",
-    "teyygdmmyadppuopvqdodaczob",
-    "qaeowuwqsqffvibrtxnjnzvzuuonrkwpysyxvkijemmpdmtnqxwekbpfzs",
-    "qqxpxpmemkldghbmbyxpkwgkaykaerhmwwjonrhcsubchs"]
+              "ndqeyhhcquplmznwslewjzuyfgklssvkqxmqjpwhrshycmvrb",
+              "ulrrbpspyudncdlbkxkrqpivfftrggemkpyjl",
+              "boygirdlggnh",
+              "xmqohbyqwagkjzpyawsydmdaattthmuvjbzwpyopyafphx",
+              "nulvimegcsiwvhwuiyednoxpugfeimnnyeoczuzxgxbqjvegcxeqnjbwnbvowastqhojepisusvsidhqmszbrnynkyop",
+              "hiefuovybkpgzygprmndrkyspoiyapdwkxebgsmodhzpx",
+              "juldqdzeskpffaoqcyyxiqqowsalqumddcufhouhrskozhlmobiwzxnhdkidr",
+              "lnnvsdcrvzfmrvurucrzlfyigcycffpiuoo",
+              "oxgaskztzroxuntiwlfyufddl",
+              "tfspedteabxatkaypitjfkhkkigdwdkctqbczcugripkgcyfezpuklfqfcsccboarbfbjfrkxp",
+              "qnagrpfzlyrouolqquytwnwnsqnmuzphne",
+              "eeilfdaookieawrrbvtnqfzcricvhpiv",
+              "sisvsjzyrbdsjcwwygdnxcjhzhsxhpceqz",
+              "yhouqhjevqxtecomahbwoptzlkyvjexhzcbccusbjjdgcfzlkoqwiwue",
+              "hwxxighzvceaplsycajkhynkhzkwkouszwaiuzqcleyflqrxgjsvlegvupzqijbornbfwpefhxekgpuvgiyeudhncv",
+              "cpwcjwgbcquirnsazumgjjcltitmeyfaudbnbqhflvecjsupjmgwfbjo",
+              "teyygdmmyadppuopvqdodaczob",
+              "qaeowuwqsqffvibrtxnjnzvzuuonrkwpysyxvkijemmpdmtnqxwekbpfzs",
+              "qqxpxpmemkldghbmbyxpkwgkaykaerhmwwjonrhcsubchs"]
 
 test_chars = "usdruypficfbpfbivlrhutcgvyjenlxzeovdyjtgvvfdjzcmikjraspdfp"
 correct_ans = 0

@@ -32,9 +32,9 @@ def mySqrt(x: int) -> int:
 #     return ans
 
 
-
 class Solution:
     """other person's solution"""
+
     def mySqrt(self, x: int) -> int:
         """docstring"""
         if x == 0:

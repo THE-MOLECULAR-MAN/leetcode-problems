@@ -7,9 +7,9 @@
 # https://www.datacamp.com/tutorial/how-to-use-sql-in-pandas-using-pandasql-queries
 
 
-
 # from pandasql import sqldf    # can't do in leetcode
 import pandas as pd
+
 
 def find_students(departments: pd.DataFrame, students: pd.DataFrame) -> pd.DataFrame:
     # penguins[(penguins['sex'] == 'Male') & (penguins['flipper_length_mm'] > 210)]['species'].unique()
