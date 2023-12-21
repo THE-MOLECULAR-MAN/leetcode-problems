@@ -4,7 +4,6 @@
 # https://leetcode.com/problems/range-sum-of-bst/solutions/4435252/python3-recursive-solution-with-3-simple-functions-beats-99-runtime-99-memory/
 # Runtime: beats:  99.99%
 # Memory:  beats:  99.85%
-# SHOULD_PUBLISH_SOLUTION
 """Solution for problem 938 - Range Sum of BST by THE-MOLECULAR-MAN"""
 
 from typing import Optional
