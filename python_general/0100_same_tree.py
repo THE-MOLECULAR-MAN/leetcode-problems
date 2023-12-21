@@ -17,13 +17,14 @@ from typing import Optional
 
 
 class Solution:
+    """docstring"""
+
     def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
+        """docstring"""
         # exit early:
         # the order of these if statements matters a lot:
-        if p is None and q is None:
-            return True
-
-        if p == [] and q == []:
+        if p is None and q is None or \
+                p == [] and q == []:
             return True
 
         if (p is None and q is not None) or \
