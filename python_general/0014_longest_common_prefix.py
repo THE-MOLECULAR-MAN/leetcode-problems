@@ -2,8 +2,6 @@
 # Tim H 2023
 # UNFINISHED
 # https://leetcode.com/problems/longest-common-prefix/description/
-# Runtime: beats	%
-# Memory:  beats	%
 """docstring"""
 
 

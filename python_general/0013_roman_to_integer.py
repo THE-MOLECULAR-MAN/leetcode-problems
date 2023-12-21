@@ -2,9 +2,6 @@
 # Tim H 2023
 # UNFINISHED
 # https://leetcode.com/problems/roman-to-integer/description/
-# Problem: 0013
-# Runtime: beats	%
-# Memory:  beats	%
 """docstring"""
 
 

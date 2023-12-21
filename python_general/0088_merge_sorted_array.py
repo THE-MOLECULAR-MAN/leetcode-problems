@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 # Tim H 2023
+# UNFINISHED
 # https://leetcode.com/problems/merge-sorted-array/
-# Runtime:  beats %
-# Memory:   beats %
 """docstring"""
 
 class Solution:

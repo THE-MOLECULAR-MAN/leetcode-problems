@@ -2,11 +2,10 @@
 # Tim H 2023
 # UNFINISHED
 # https://leetcode.com/problems/students-with-invalid-departments/
+"""docstring"""
 # https://pandas.pydata.org/docs/reference/api/pandas.read_sql_query.html
 # https://www.datacamp.com/tutorial/how-to-use-sql-in-pandas-using-pandasql-queries
-# Runtime: beats	%
-# Memory:  beats	%
-"""docstring"""
+
 
 
 # from pandasql import sqldf    # can't do in leetcode

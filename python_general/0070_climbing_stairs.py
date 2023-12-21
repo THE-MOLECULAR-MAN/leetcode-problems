@@ -2,10 +2,7 @@
 # Tim H 2023
 # UNFINISHED
 # https://leetcode.com/problems/climbing-stairs/description/
-# Runtime: beats	%
-# Memory:  beats	%
 """docstring"""
-
 
 class Solution:
     """docstring"""

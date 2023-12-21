@@ -1,9 +1,7 @@
 #!/usr/bin/python3
 # Tim H 2023
-# https://leetcode.com/problems/merge-two-sorted-lists/
 # UNFINISHED
-# Runtime: beats	%
-# Memory:  beats	%
+# https://leetcode.com/problems/merge-two-sorted-lists/
 """docstring"""
 
 from typing import Optional
