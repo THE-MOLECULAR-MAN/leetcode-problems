@@ -5,64 +5,76 @@
 """docstring"""
 
 
-import numpy as np
+# import numpy as np
 
-
-def is_descending(r) -> bool:
+class Solution:
     """docstring"""
-    # print('sorted version: ', sorted(r))
-    return r == sorted(r, reverse=True)
 
+    def __init__(self):
+        self.sum = 0
+        self.MAPPING = {'I': 1, 'V': 5, 'X': 10,
+                        'L': 50, 'C': 100, 'D': 500, 'M': 1000}
 
-def get_subtraction_list(l):
-    """docstring"""
-    return 0
+    def romanToInt(self, s: str) -> int:
+        """docstring"""
 
+        if len(s) == 0:
+            return 0
+        elif len(s) == 1:
+            return self.MAPPING[s[0]]
 
-def find_next_change(l):
-    """docstring"""
-    # for i in l:
-    # if
-    return 0
+        numerical_list = []
+        for c in s:
+            numerical_list.append(self.MAPPING[c])
+        
+        x = self.break_into_pieces(numerical_list)
+        r = self.summarize_arrays(x)
+        return self.sum
+    
+    def summarize_arrays(self,nums):
+        """docstring"""
+        for iter_array in nums:
+            self.sum += self.summarize_single_number(iter_array)
+            
+    def summarize_single_number(self, n_list):
+        """docstring"""
+        first = n_list[0]
+        last = n_list[-1]
 
+        # if subtraction needs to take place:
+        if last > first:
+            return last - sum(n_list[0:-2])
+        else:
+            return sum(n_list)
+        
+    def break_into_pieces(self, nums):
+        """docstring"""
+        res = []
+        inner = [0]
+        for i in nums:
+            # current number is increasing or the same, append into group
+            if i >= inner[-1]:
+                inner.append(i)
 
-def romanToInt(s: str):
-    """docstring"""
-    mapping = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
-    print('-------------------------')
-    print('original: ', s)
+            # otherwise, a new string is starting
+            else:
+                res.append(inner)
+                inner = [i]
+        res.append(inner)
+        return res
 
-    # if len(s) == 0:
-    #     return 0
-    # elif len(s) == 1:
-    #     return mapping[s[0]]
+    def is_descending(self, r) -> bool:
+        """docstring"""
+        return r == sorted(r, reverse=True)
 
-    # while iter<len(s)-1:
-    #     x=mapping[s[iter]]
-    #     x_next=mapping[s[iter+1]]
-    #     if x_next > x:
-    #         # need to do subtraction
-
-    # romans_as_array = [char for char in s]
-    numerical_list = []
-    for c in s:
-        numerical_list.append(mapping[c])
-
-    if is_descending(numerical_list):
-        print('no logic needed, list is descending')
-        return sum(numerical_list)
-
-    print('gotta do some logic, it is ascending')
-
-    return numerical_list
 
 ###############################################################################
 #       MAIN
 ###############################################################################
+sol = Solution()
 
+test_inputs = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"]
 
-print(romanToInt('I'))
-print(romanToInt(''))
-print(romanToInt('III'))
-print(romanToInt('IV'))
-print(romanToInt('VI'))
+for iter_input in test_inputs:
+    iter_output = sol.romanToInt(iter_input)
+    print(f'input: {iter_input}   output: {iter_output}')

@@ -4,40 +4,41 @@
 # https://leetcode.com/problems/longest-common-prefix/description/
 """docstring"""
 
-
 class Solution:
     """docstring"""
 
     def longestCommonPrefix(self, strs: list[str]) -> str:
         """docstring"""
-        try:
-            shortest_string = min(strs, key=len)
-            print('shortest_string = ' + str(shortest_string))
+        res = '_'
+        # sort the keys by length and then alphabetically
+        # hopefully it will speed up the process of finding mismatches
+        strs.sort()
+        strs.sort(key=len)
+        shortest_string = strs[0]
+        print(strs)
+        
+        # exit early condition - if the shortest string is empty
+        if len(shortest_string) == 0:
+            return ""
+        
+        # early exit condition - if there's only 1 string to compare,
+        # just return the whole thing
+        if len(strs) == 1:
+            return strs[0]
 
-            # iterate through each characer in the shorest string
-            outer_iter = 0
-            res = ''
-
-            # prob should sort them by ascending length, or at least
-            # put the shorest one first?
-
-            while outer_iter < len(shortest_string):
-                inner_iter = 1
-                next_char = strs[outer_iter][inner_iter]
-
-                while inner_iter < len(strs):
-
-                    if strs[outer_iter][inner_iter] != next_char:
-                        if inner_iter == 1:
-                            return ""
-                        return strs[0][0:outer_iter - 2]
-                    inner_iter += 1
-                res = res.append(next_char)
-                outer_iter += 1
-        except IndexError:
-            # gotta fix something here. If the first string is shorter
-            return res
-        return True
+        # there are at least 2 strings to compare
+        for outer_iter, outer_char in enumerate(shortest_string):
+            inner_iter = 1
+            for inner_char in strs[outer_iter]
+            
+            #for charY in strs[inner_iter]:
+            charY = strs[inner_iter][]:
+            print(charX + " " + charY)
+            if charX != charY:
+                return res
+            inner_iter += 1
+            res = res.append(charX)
+        return res
 
 
 ###############################################################################
@@ -50,4 +51,4 @@ tests = [["flower", "flow", "flight"],
          ["dog", "racecar", "car"]]
 
 for iter in tests:
-    print(str(iter) + ' -->  ' + str(sol.longestCommonPrefix(iter)))
+    print(sol.longestCommonPrefix(iter))

@@ -14,12 +14,14 @@ from re import sub
 
 class Solution:
     """dummy docstring for leetcode class to meet pep8 style guide"""
+    # define class attribute for memory savings
+    s = ""
 
-    def simplify_string(self, s: str) -> str:
+    def simplify_string(self) -> str:
         """removes all non-alphanumeric characters from string and converts
         everything to lower case"""
         # I think using a compiled regex is a little faster than this?
-        return sub("[^0-9a-zA-Z]+", "", s).lower()
+        return sub("[^0-9a-zA-Z]+", "", self.s).lower()
 
     def is_even(self, num: int) -> bool:
         """returns boolean if num is an even number """
@@ -27,10 +29,10 @@ class Solution:
         # not required
         return bool(num % 2 == 0)
 
-    def get_mirrors(self, s: str) -> (str, str):
+    def get_mirrors(self) -> (str, str):
         """returns the two strings that should be compared to test if s
         is a palindrome."""
-        L = len(s)
+        L = len(self.s)
         if self.is_even(L):
             # the string has an even number of characters, so we don't need
             # to worry about ignoring a middle character
@@ -57,18 +59,18 @@ class Solution:
         #    return True
 
         # strip out the non-alphanumeric characters
-        s = self.simplify_string(s)
+        self.s = self.simplify_string()
 
         # Early exit for special cases:
         # Intentionally doing this test AFTER the simplify_string
         # b/c some test cases might be a long list of
         # non-alphanumerics with only 1 or fewer valid chars to test.
-        if len(s) <= 1:
+        if len(self.s) <= 1:
             return True
 
         # fetch the two strings to test if they match
         # uses extra memory, but is pretty fast
-        leftside, rightside = self.get_mirrors(s)
+        leftside, rightside = self.get_mirrors()
 
         # leftover from debugging:
         # print(s + " " + leftside + " " + rightside)

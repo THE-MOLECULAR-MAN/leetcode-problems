@@ -19,19 +19,18 @@ from typing import Optional
 class Solution:
     """docstring"""
 
-    def is_leaf(self, node):
+    def is_null_leaf(self, node):
         """returns True if the current node is a leaf (has no children nodes)"""
-        if node is None or \
-                node is [] or \
-                node.val is None:
-            return True
+        if node is None or node is []:
+            return (node.val is None)
         return (node.left is None) and (node.right is None)
 
     def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
         """docstring"""
         # exit early:
         # the order of these if statements matters a lot:
-        if p is None and q is None or \
+        if self.is_leaf(p) and self.is_leaf(q):
+        p is None and q is None or \
                 p == [] and q == []:
             return True
 
